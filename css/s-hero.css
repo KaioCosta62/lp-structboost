@@ -1,0 +1,66 @@
+.hero{
+  width: 100%;
+  padding-top: 11.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after{
+  content: '';
+  width: 100%;
+  height: 22rem;
+  background-color: var(--pink-10);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.hero .text-hero{
+  width: 100%;
+  max-width: 71.9rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+  position: relative;
+}
+
+.hero .text-hero h1{
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -1.68px;
+  position: relative;
+}
+
+.hero .text-hero h1::after{
+  content: '';
+  width: 100%;
+  max-width: 59.9rem;
+  height: 2.2rem;
+  background: url('../images/line-title.svg') no-repeat center center;
+  position: absolute;
+  left: 3.9rem;
+  bottom: -0.5rem;
+  z-index: -1;
+}
+
+.hero .text-hero p{
+  color: var(--gray-300);
+  letter-spacing: -0.54px;
+  max-width: 55.6rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+}
+
+.hero .text-hero .arrow{
+  position: absolute;
+  left: 5.5rem;
+  bottom: 1.7rem;
+}
+
+.hero .ilustra{
+  padding: 0 1.5rem;
+}
