@@ -1,0 +1,20 @@
+.transformacao{
+  padding-top: 12.8rem;
+}
+
+.transformacao h3{
+  width: 100%;
+  max-width: 53.5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+
+.transformacao .itens{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-800);
+  padding-bottom: 12.8rem;
+}
