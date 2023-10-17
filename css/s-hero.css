@@ -64,3 +64,68 @@
 .hero .ilustra{
   padding: 0 1.5rem;
 }
+
+.hero .ilustra-mobile{
+  display: none;
+}
+
+@media(max-width: 991px){
+  .hero::after{
+    height: 13rem;
+  }
+}
+
+@media(max-width: 768px){
+  .hero{
+    padding-top: 9rem;
+  }
+  .hero .text-hero h1{
+    max-width: 49rem;
+    margin: 0 auto 2.4rem auto;
+    font-size: 5rem;
+  }
+  .hero .text-hero h1::after{
+    background-size: 100%;
+    left: 0;
+    bottom: -0.4rem;
+  }
+  .hero .text-hero p{
+    max-width: 41rem;
+  }
+  .hero .text-hero .arrow{
+    max-width: 90px;
+    left: 5rem;
+  }
+}
+
+@media(max-width: 560px){
+  .hero{
+    padding-top: 8.8rem;
+  }
+  .hero::after{
+    height: 22rem;
+  }
+  .hero .text-hero{
+    margin-bottom: 8.8rem;
+  }
+  .hero .text-hero h1{
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+  }
+  .hero .text-hero h1::after{
+    bottom: -0.8rem;
+  }
+  .hero .text-hero p{
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+  }
+  .hero .text-hero .arrow{
+    display: none;
+  }
+  .hero .ilustra{
+    display: none;
+  }
+  .hero .ilustra-mobile{
+    display: block;
+  }
+}
