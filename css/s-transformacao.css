@@ -18,3 +18,61 @@
   border-bottom: 1px solid var(--gray-800);
   padding-bottom: 12.8rem;
 }
+
+@media(max-width: 1200px){
+  .transformacao{
+    padding-top: 10rem;
+  }
+  .transformacao .itens{
+    padding-bottom: 10rem;
+  }
+  .transformacao .itens{
+    gap: 3.2rem;
+  }
+  .transformacao .itens p{
+    font-size: 1.6rem; 
+  }
+  .transformacao .itens h6{
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 991px){
+  .transformacao .itens{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .transformacao .itens p br{
+    display: none;
+  }
+}
+
+@media(max-width: 768px){
+  .transformacao h3{
+    font-size: 3.5rem;
+  }
+}
+
+@media(max-width: 560px){
+  .transformacao{
+    padding-top: 8rem;
+  }
+  .transformacao h3{
+    font-size: 2.8rem;
+    letter-spacing: -0.84px;
+    max-width: 33.6rem;
+  }
+  .transformacao .itens{
+    padding-bottom: 8rem;
+    gap: 6.4rem;
+  }
+  .transformacao .itens h6{
+    font-size: 2.2rem;
+  }
+  .transformacao .itens p{
+    font-size: 1.8rem;
+    max-width: 31.9rem;
+    margin: 0 auto;
+  }
+}
